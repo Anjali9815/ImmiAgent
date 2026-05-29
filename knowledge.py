@@ -96,7 +96,7 @@ CPT_INFO = {
         "part_time": "20 hours or less per week. Does NOT affect OPT eligibility.",
         "full_time": "More than 20 hours per week. 12 months of full-time CPT eliminates OPT eligibility."
     },
-    "required": [
+    "required_documents": [
         "Job offer letter from employer",
         "CPT request form (from your school)",
         "Academic advisor approval",
@@ -115,6 +115,18 @@ H1B_INFO = {
     "full_form": "H-1B Specialty Occupation Visa",
     "description": "Employer-sponsored work visa for specialty occupation positions requiring at least a bachelor's degree.",
     "who_is_eligible": "Workers in specialty occupations with at least a bachelor's degree (or equivalent) in a related field.",
+    "required_documents": [
+        "Valid passport",
+        "Updated resume",
+        "Educational transcripts and degree certificates",
+        "Employer offer letter",
+        "Labor Condition Application (LCA)",
+        "Form I-129",
+        "Previous immigration documents (I-20, EAD, I-94)",
+        "Passport-size photographs",
+        "Pay stubs (if currently employed in US)",
+        "Experience letters (if applicable)"
+    ],
     "cap": {
         "regular_cap": "65,000 per fiscal year",
         "masters_cap": "Additional 20,000 for US master's degree or higher",
