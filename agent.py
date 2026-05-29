@@ -49,9 +49,6 @@ while True:
 
         message = response.choices[0].message
 
-        print(message)
-        print("***************************")
-
         if message.tool_calls:
             tool_call = message.tool_calls[0]
             function_name = tool_call.function.name

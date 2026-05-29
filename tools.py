@@ -21,7 +21,7 @@ def check_deadline(term: str, **kwargs):
 
 def check_work_eligibility(term: str, **kwargs):
     """Check work eligibility"""
-    keys = ["who_is_eligible", "types"]
+    keys = ["who_is_eligible", "types", "duration", ]
     if term.upper() == "OPT":
         return {k: knowledge.OPT_INFO[k] for k in keys if k in knowledge.OPT_INFO}
     elif term.upper() == "CPT":
